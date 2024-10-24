@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.203.200.182:8081/repository/nexus-repos/</url>
+	      <url>http://54.147.230.131:8081/repository/nexus-repos/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
