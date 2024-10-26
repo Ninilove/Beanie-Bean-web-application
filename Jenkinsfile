@@ -23,7 +23,7 @@ pipeline{
                 sh "mvn sonar:sonar"
             }
         }
-        
+        */
         stage('4UploadArtifacts'){
             steps{
                 sh "echo 'pushing Artifacts to remote repository'"
@@ -33,9 +33,8 @@ pipeline{
         stage('5DeploymentToUat'){
             steps{
                 sh "echo 'Deployment to Tomcat'"
-                deploy adapters: [tomcat9(credentialsId: 'jenkins-tomcat-creds', path: '', url: 'http://3.233.240.20:8080/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat9(credentialsId: 'jenkins_tomcat', path: '', url: 'http://54.144.111.150:8080/')], contextPath: null, war: 'target/*war'
             }
         }
-        */
     }
 }
