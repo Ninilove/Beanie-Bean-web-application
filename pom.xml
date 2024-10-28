@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.237.214.109:8081/repository/kamala-harris-repo/</url>
+	      <url>http://18.212.253.106:8081/repository/election-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
