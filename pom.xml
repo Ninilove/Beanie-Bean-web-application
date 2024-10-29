@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.90.107.12:8081/repository/Buddy-freestyle-repo/</url>
+	      <url>http://54.90.107.12:8081/repository/buddy-node/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
