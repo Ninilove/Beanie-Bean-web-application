@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'trump' } 
+    agent { label 'test' } 
     tools{
         maven "maven3.9.8"
     }
