@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.230.86.48:8081/repository/buddy-freestyle/</url>
+	      <url>http://54.166.157.85:8081/repository/election-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
