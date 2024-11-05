@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.166.157.85:8081/repository/election-repo/</url>
+	      <url>http://54.167.5.8:8081/repository/buddy-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
