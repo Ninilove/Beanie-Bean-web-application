@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.159.0.23:8081/repository/trump-node/</url>
+	      <url>http://52.90.228.198:8081/repository/trump-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
