@@ -17,14 +17,14 @@ pipeline{
                 sh "mvn clean install"
             }
         }
-        
+        /*
         stage('3CodeQuality'){
             steps{
                 sh "echo 'Running code quality analysis'"
                 sh "mvn sonar:sonar"
             }
         }
-        */
+        
         stage('4UploadArtifacts'){
             steps{
                 sh "echo 'pushing Artifacts to remote repository'"
@@ -37,5 +37,6 @@ pipeline{
                 deploy adapters: [tomcat9(credentialsId: 'Jenkins-tomcat-credentials', path: '', url: 'http://3.93.183.208:8080/')], contextPath: null, war: 'target/*.war'
             }
         }
+        */
     }
 }
