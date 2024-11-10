@@ -17,7 +17,7 @@ pipeline{
                 sh "mvn clean install"
             }
         }
-        /*
+        
         stage('3CodeQuality'){
             steps{
                 sh "echo 'Running code quality analysis'"
