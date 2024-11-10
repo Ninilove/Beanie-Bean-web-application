@@ -8,7 +8,7 @@ pipeline{
         stage('1CodeClone'){
             steps{
                 sh "echo 'This is the latest version of Tesla application.'"
-                git "https://github.com/nfestaclass04/maven-web-application.git"
+                git branch: 'main', url: 'https://github.com/Alaindf/Beanie-Bean-web-application.git'
             }
         }
         stage('2Test&Build'){
@@ -34,7 +34,7 @@ pipeline{
         stage('5DeploymentToUat'){
             steps{
                 sh "echo 'Deployment to Tomcat'"
-                deploy adapters: [tomcat9(credentialsId: 'jenkins-tomcat-creds', path: '', url: 'http://3.233.240.20:8080/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat9(credentialsId: 'Jenkins-tomcat-credentials', path: '', url: 'http://3.93.183.208:8080/')], contextPath: null, war: 'target/*.war'
             }
         }
     }
