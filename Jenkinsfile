@@ -22,9 +22,8 @@ pipeline{
                 sh "echo 'Running code quality analysis'"
                 sh "mvn sonar:sonar"
             }
-             */
         }
-    
+    */
         stage('4UploadArtifacts'){
             steps{
                 sh "echo 'pushing Artifacts to remote repository'"
