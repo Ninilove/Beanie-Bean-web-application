@@ -22,6 +22,7 @@ pipeline{
                 sh "echo 'Running code quality analysis'"
                 sh "mvn sonar:sonar"
             }
+             */
         }
     
         stage('4UploadArtifacts'){
@@ -33,9 +34,8 @@ pipeline{
         stage('5DeploymentToUat'){
             steps{
                 sh "echo 'Deployment to Tomcat'"
-                deploy adapters: [tomcat9(credentialsId: 'jenkins-tomcat', path: '', url: 'http://54.86.247.203/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat9(credentialsId: 'tomcat-jenkins', path: '', url: 'http://54.164.104.215:8080/')], contextPath: null, war: 'target/*war'
             }
         }
-        */
     }
 }
