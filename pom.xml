@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.212.249.28:8081/repository/buddy-repo/</url>
+	      <url>http://54.82.14.114:8081/repository/buddy-repo/>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
