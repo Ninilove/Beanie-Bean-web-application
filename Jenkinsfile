@@ -1,7 +1,7 @@
 pipeline{
     agent { label 'test-node' } 
     tools{
-        maven "maven3.9.8"
+        maven "maven 3.9.8"
     }
     stages{
         stage('1CodeClone'){
