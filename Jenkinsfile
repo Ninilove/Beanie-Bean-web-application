@@ -2,7 +2,7 @@
 pipeline{
     agent { label 'Agent1' } 
     tools{
-        maven "maven4.0.0"
+        maven "maven3.9.8"
     }
     stages{
         stage('1CodeClone'){
