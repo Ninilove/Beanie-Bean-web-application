@@ -1,6 +1,6 @@
 
 pipeline{
-    agent { label 'Tomcat-server' } 
+    agent { label 'agent1' } 
     tools{
         maven "maven3.9.8"
     }
