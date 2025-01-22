@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.196.182.46:8081/repository/freestyle-repo/</url>
+	      <url>http://54.160.197.224:8081/repository/moise-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
