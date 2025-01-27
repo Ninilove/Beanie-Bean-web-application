@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.160.197.224:8081/repository/moise-repo/</url>
+	      <url>http://3.85.134.17:8081/repository/love-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
