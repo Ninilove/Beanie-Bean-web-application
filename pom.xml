@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.85.134.17:8081/repository/love-repo/</url>
+	      <url>http://54.221.190.109:8081/repository/node-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
