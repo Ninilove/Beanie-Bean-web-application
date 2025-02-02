@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.89.242.96:8081/repository/pipeline-1-repo/</url>
+	      <url>http://3.89.242.96:8081/repository/freestyle-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
