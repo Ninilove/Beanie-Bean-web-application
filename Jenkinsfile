@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'node-project' } 
+    agent { label 'morgan-project' } 
     tools{
         maven "maven3.9.8"
     }
