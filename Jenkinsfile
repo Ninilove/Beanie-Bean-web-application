@@ -24,7 +24,7 @@ pipeline{
                 sh "mvn sonar:sonar"
             }
         }
-         
+        */ 
     
         stage('4UploadArtifacts'){
             steps{
@@ -35,9 +35,9 @@ pipeline{
         stage('5DeploymentToUat'){
             steps{
                 sh "echo 'Deployment to Tomcat'"
-                deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://54.226.221.218:8080/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat9(credentialsId: 'tomcat-jenkins', path: '', url: 'http://18.232.176.52:8080/')], contextPath: null, war: 'target/*war'
             }
         }
-       */ 
+        
     }
 }
