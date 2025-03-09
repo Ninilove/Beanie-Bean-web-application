@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.89.242.96:8081/repository/freestyle-repo/</url>
+	      <url>http://52.87.221.57:8081/repository/pearl-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
