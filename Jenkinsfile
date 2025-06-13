@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'node-project' } 
+    agent { label 'perez' } 
     tools{
         maven "maven3.9.8"
     }
@@ -35,7 +35,7 @@ pipeline{
         stage('5DeploymentToUat'){
             steps{
                 sh "echo 'Deployment to Tomcat'"
-                deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://18.234.219.232:8080/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat1-jenkins', path: '', url: 'http://34.203.11.143:8080/')], contextPath: null, war: 'target/*war'
             }
         }
     
