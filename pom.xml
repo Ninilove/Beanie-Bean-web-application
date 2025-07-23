@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>Beanie-app</finalName>
+		<finalName>Beanie-app-1</finalName>
 		
 		<plugins>
 			<plugin>
