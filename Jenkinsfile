@@ -33,6 +33,7 @@
 
 Regards
 ''', subject: 'Pipeline Status', to: 'nfestatech@mail.com'
-*/
+
     }
+    */
 }
