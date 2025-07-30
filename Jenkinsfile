@@ -1,7 +1,4 @@
-Jenkinsfile:
- ==========
- 
- node{
+  node{
     def mavenHome = tool name: 'maven3.9.8'
     stage('1CloneCode'){
         git "https://github.com/Alaindf/Beanie-Bean-web-application.git"
