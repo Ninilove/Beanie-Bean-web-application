@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.87.169.168:8081/repository/multi-branch/</url>
+	      <url>http://52.87.169.168:8081/repository/main-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
