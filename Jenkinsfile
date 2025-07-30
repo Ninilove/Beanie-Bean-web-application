@@ -27,7 +27,7 @@
         }
     }
     stage('7DeploymentToProd'){
-        deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-jenkins', path: '', url: 'http://54.84.54.73:8080/')], contextPath: null, war: 'target/*war'
+        deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-jenkins2', path: '', url: 'http://54.84.54.73:8080/')], contextPath: null, war: 'target/*war'
     }
     /*
     stage('8Notifications'){
