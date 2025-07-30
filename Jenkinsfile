@@ -38,12 +38,3 @@ Regards
 */
     }
 }
-
-
-
- ===========================
- http://98.81.71.151:8080/
-
- stage('5Deployment-uat'){
-        deploy adapters: [tomcat9(credentialsId: 'Tomcat-credentials', path: '', url: 'http://54.208.131.217:8080/')], contextPath: null, war: 'target/*war'
-    }
