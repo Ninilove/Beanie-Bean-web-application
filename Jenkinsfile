@@ -1,10 +1,7 @@
-Jenkinsfile:
- ==========
- 
  node{
     def mavenHome = tool name: 'maven3.9.8'
     stage('1CloneCode'){
-        git "https://github.com/Alaindf/Beanie-Bean-web-application.git"
+        git branch: 'main', url: 'https://github.com/Ninilove/Beanie-Bean-web-application.git'
         //sh "https://github.com/nfestaclass04/maven-web-application.git"
         //bat "https://github.com/nfestaclass04/maven-web-application.git"
     }
