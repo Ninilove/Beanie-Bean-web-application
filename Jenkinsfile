@@ -18,7 +18,7 @@
     stage('5DeploymentUat'){
         deploy adapters: [tomcat9(credentialsId: 'jenkins_tomcat_credentials', path: '', url: 'http://44.203.153.212:8080/')], contextPath: null, war: 'target/*war'
     }
-    */
+    
     stage('6DeploymentProd'){}
 
     stage('6Approval'){
@@ -26,6 +26,7 @@
             input message: 'Application is now ready for deployment to production. Please, review and provide your Approval'
         }
     }
+    */
     stage('7DeploymentToProd'){
         deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-jenkins2', path: '', url: 'http://54.84.54.73:8080/')], contextPath: null, war: 'target/*war'
     }
