@@ -32,7 +32,7 @@ pipeline{
         stage('5DeploymentToUat'){
             steps{
                 sh "echo 'Deployment to Tomcat'"
-                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-jenkins2', path: '', url: 'http://54.84.54.73:8080/')], contextPath: null, war: 'target/*war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-jenkins2', path: '', url: 'http://184.73.128.56:8080/')], contextPath: null, war: 'target/*war'
             }
         }
     }
