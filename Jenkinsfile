@@ -1,6 +1,6 @@
 
 pipeline{
-    agent { label 'Agent1' } 
+    agent { label 'Agent2' } 
     tools{
         maven "maven3.9.8"
     }
