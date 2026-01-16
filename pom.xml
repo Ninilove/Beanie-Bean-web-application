@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://100.27.201.116:8000/</sonar.host.url>
+		<sonar.host.url>http://18.234.86.139:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.token>squ_597298bb05740b83e2ac967d4f7fa3cce9a9aaff</sonar.token>
+		<sonar.token>squ_171fd087cc7df198c47b43eecd59099d9fa477dd</sonar.token>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://100.27.201.116:7000/repository/nexus-repo/</url>
+	      <url>http://13.218.219.234:8081/repository/freestyle-project/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
