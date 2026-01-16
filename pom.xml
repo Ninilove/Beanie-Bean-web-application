@@ -82,6 +82,14 @@
 			<version>${spring.version}</version>
 		</dependency>
 		
+        <dependency>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>5.5.0.6356</version>
+            <scope>compile</scope>
+        </dependency>
+
+		
 		<!-- provided dependencies -->
 
 		<dependency>
