@@ -7,6 +7,7 @@ RUN mkdir -p /usr/share/man/man1 && \
     apt-get install -y --no-install-recommends apt-utils && \
     apt-get install -y \
     vim \
+    unzip \
     wget && \ 
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
