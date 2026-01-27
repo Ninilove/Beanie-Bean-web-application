@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 
 # Switch back to the default Tomcat user (usually 'tomcat' or 'root' depending on the base image)
 # Check what user the base image uses
-USER tomcat
+# USER tomcat
 
 # Expose Tomcat's default port
 EXPOSE 8080
