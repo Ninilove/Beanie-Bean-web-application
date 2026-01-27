@@ -1,5 +1,5 @@
 FROM tomcat:latest
-
+COPY target/*.war /usr/local/tomcat/webapps/docker-jenkins.war
 # Switch to root to install packages
 USER root
 
