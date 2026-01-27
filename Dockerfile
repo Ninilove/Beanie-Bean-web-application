@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Optionally create symbolic link for vi if needed
-RUN ln -s /usr/bin/vim /usr/bin/vi
+# RUN ln -s /usr/bin/vim /usr/bin/vi
 
 # Switch back to the default Tomcat user (usually 'tomcat' or 'root' depending on the base image)
 # Check what user the base image uses
