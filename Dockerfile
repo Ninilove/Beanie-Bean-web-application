@@ -4,7 +4,7 @@
 #
 
 FROM eclipse-temurin:25-jdk-noble
-
+COPY target/*.war /usr/local/tomcat/webapps/docker-jenkins.war
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 RUN mkdir -p "$CATALINA_HOME"
