@@ -26,6 +26,7 @@ RUN set -eux; \
 		ca-certificates \
 		curl \
 		gnupg \
+		vim \
 	; \
 	\
 	ddist() { \
