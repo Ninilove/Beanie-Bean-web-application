@@ -3,7 +3,8 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM eclipse-temurin:25-jdk-noble
+# FROM eclipse-temurin:25-jdk-noble
+FROM eclipse-temurin:17-jdk-noble
 COPY target/*.war /usr/local/tomcat/webapps/docker-jenkins.war
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
@@ -79,8 +80,8 @@ RUN set -eux; \
 	rm -rf "$GNUPGHOME"; \
 	\
 # https://tomcat.apache.org/tomcat-9.0-doc/security-howto.html#Default_web_applications
-	mv webapps webapps.dist; \
-	mkdir webapps; \
+	# mv webapps webapps.dist; \
+	# mkdir webapps; \
 # we don't delete them completely because they're frankly a pain to get back for users who do want them, and they're generally tiny (~7MB)
 	\
 	nativeBuildDir="$(mktemp -d)"; \
