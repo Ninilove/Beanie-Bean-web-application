@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>Beanie-app</finalName>
+		<finalName>range-webapp</finalName>
 		
 		<plugins>
 			<plugin>
