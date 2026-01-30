@@ -5,7 +5,7 @@
 
 # FROM eclipse-temurin:25-jdk-noble
 # FROM eclipse-temurin:17-jdk-noble
-FROM eclipse-temurin:17.0.17_8-jre-focal
+FROM openjdk:17.0.17-jre-slim-buster
 COPY target/*.war /usr/local/tomcat/webapps/range-webapp.war
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
